@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\User\Documents\Visual Studio 2019\Projects\Git_2\Source.cpp(1,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\User\Documents\Visual Studio 2019\Projects\Git_2\Source.cpp(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\User\Documents\Visual Studio 2019\Projects\Git_2\Source.cpp(14,10): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  Git_2.vcxproj -> C:\Users\User\Documents\Visual Studio 2019\Projects\Git_2\Debug\Git_2.exe
