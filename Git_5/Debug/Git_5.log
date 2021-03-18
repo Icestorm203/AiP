@@ -1,0 +1,6 @@
+﻿  Source.cpp
+C:\Users\User\Documents\Visual Studio 2019\Projects\Git_5\Source.cpp(30,11): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\User\Documents\Visual Studio 2019\Projects\Git_5\Source.cpp(34,12): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\User\Documents\Visual Studio 2019\Projects\Git_5\Source.cpp(36,22): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\User\Documents\Visual Studio 2019\Projects\Git_5\Source.cpp(38,22): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  Git_5.vcxproj -> C:\Users\User\Documents\Visual Studio 2019\Projects\Git_5\Debug\Git_5.exe
