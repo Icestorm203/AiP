@@ -1,0 +1,2 @@
+C:\Users\User\Documents\Visual Studio 2019\Projects\Git_4.7\Debug\Git_4.7.exe
+C:\Users\User\Documents\Visual Studio 2019\Projects\Git_4.7\Debug\Git_4.7.pdb

@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\User\Documents\Visual Studio 2019\Projects\Git_4\Source.cpp(7,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\User\Documents\Visual Studio 2019\Projects\Git_4\Source.cpp(8,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  Git_4.vcxproj -> C:\Users\User\Documents\Visual Studio 2019\Projects\Git_4\Debug\Git_4.exe
