@@ -8,23 +8,30 @@
 #include "fstream";
 
 using namespace std;
-
+float countValue(float a, float b, float &y);
+void writeFile(float a, float b, float &y);
 int main() {
 	setlocale(LC_ALL, "Russian");
-	ofstream f("Results.txt");
-	float a,b;
 
-	cout << "Введите 2 числа \n";
+	float a,b,y;
+	cout << "Введите 2 числа a и b \n";
 	cin >> a >> b;
-	cout << "a= " << a << endl << "b= " << b << endl;
-	f << "a= " << a << endl << "b= " << b << endl;
-	float c = (a + (4 * b)) * (a - (3 * b)) + (a * a);
-	cout << "(a + 4*b)*(a - 3*b) + a * a = " << c << endl;
-
-	f << "(a + 4*b)*(a - 3*b) + a * a = " << c << endl;
-	f.close();
-
+	countValue(a,b,y);
+	cout << "(a + 4*b)*(a - 3*b) + a * a = " << y << endl;
+	writeFile(a,b,y);
+	
 	getchar();
 	getchar();
 	return 0;
+}
+float countValue(float a, float b, float &y) {
+	y = (a + (4 * b)) * (a - (3 * b)) + (a * a);
+	return 0;
+
+}
+void writeFile(float a, float b, float  &y) {
+	ofstream f("Results.txt");
+	f << "a= " << a << endl << "b= " << b << endl;
+	f << "(a + 4*b)*(a - 3*b) + a * a = " << y << endl;
+	f.close();
 }

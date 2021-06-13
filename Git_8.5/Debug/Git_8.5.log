@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\User\Documents\Visual Studio 2019\Projects\Git_8.5\Source.cpp(11,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\User\Documents\Visual Studio 2019\Projects\Git_8.5\Source.cpp(12,33): warning C4101: s: неиспользованная локальная переменная
+  Git_8.5.vcxproj -> C:\Users\User\Documents\Visual Studio 2019\Projects\Git_8.5\Debug\Git_8.5.exe

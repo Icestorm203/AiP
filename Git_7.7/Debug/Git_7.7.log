@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\User\Documents\Visual Studio 2019\Projects\Git_7.7\Source.cpp(25,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\User\Documents\Visual Studio 2019\Projects\Git_7.7\Source.cpp(58,6): warning C4554: "&": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+C:\Users\User\Documents\Visual Studio 2019\Projects\Git_7.7\Source.cpp(58,67): warning C4554: "&": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+  Git_7.7.vcxproj -> C:\Users\User\Documents\Visual Studio 2019\Projects\Git_7.7\Debug\Git_7.7.exe

@@ -9,13 +9,24 @@ y = 2 * |x| + 3, если x < 7*/
 #include <fstream>
 
 using namespace std;
-
+void checkValue(float x, float &y);
+void writeFile(int y);
 int main() {
 	setlocale(LC_ALL, "Russian");
-	ofstream f("Results.txt");
+	
 	float x, y;
 	cout << "¬ведите x" << endl;
 	cin >> x;
+	checkValue(x, y);
+	cout << "y равен = " << y << endl;
+	writeFile(y);
+
+	getchar();
+	getchar();
+	return 0;
+	
+}
+void checkValue(float x, float &y) {
 	if (x > 7) {
 		y = 2 * (x * x) - 3;
 	}
@@ -25,12 +36,9 @@ int main() {
 	if (x < 7) {
 		y = 2 * abs(x) + 3;
 	}
-
-	cout << "y равен = " << y << endl;
+}
+void writeFile(int y) {
+	ofstream f("Results.txt");
 	f << "y равен = " << y << endl;
 	f.close();
-	getchar();
-	getchar();
-	return 0;
-	
 }

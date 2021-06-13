@@ -1,7 +1,8 @@
 ﻿  Source.cpp
-C:\Users\User\Documents\Visual Studio 2019\Projects\Git_3\Source.cpp(8,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
-C:\Users\User\Documents\Visual Studio 2019\Projects\Git_3\Source.cpp(9,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
-C:\Users\User\Documents\Visual Studio 2019\Projects\Git_3\Source.cpp(10,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
-C:\Users\User\Documents\Visual Studio 2019\Projects\Git_3\Source.cpp(22,18): warning C4244: =: преобразование "int" в "float", возможна потеря данных
-C:\Users\User\Documents\Visual Studio 2019\Projects\Git_3\Source.cpp(23,18): warning C4244: =: преобразование "int" в "float", возможна потеря данных
-  Git_3.vcxproj -> C:\Users\User\Documents\Visual Studio 2019\Projects\Git_3\Debug\Git_3.exe
+C:\Users\User\Documents\Visual Studio 2019\Projects\Git_1.3\Source.cpp(8,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\User\Documents\Visual Studio 2019\Projects\Git_1.3\Source.cpp(9,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\User\Documents\Visual Studio 2019\Projects\Git_1.3\Source.cpp(10,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\User\Documents\Visual Studio 2019\Projects\Git_1.3\Source.cpp(21,17): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\User\Documents\Visual Studio 2019\Projects\Git_1.3\Source.cpp(21,14): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\User\Documents\Visual Studio 2019\Projects\Git_1.3\Source.cpp(21,11): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+  Git_3.vcxproj -> C:\Users\User\Documents\Visual Studio 2019\Projects\Git_1.3\Debug\Git_3.exe

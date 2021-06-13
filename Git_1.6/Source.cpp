@@ -6,17 +6,23 @@
 #include <fstream>
 
 using namespace std;
-
+void checkValue(int a, int b, int c, int &max);
+void writeFile(int &max);
 int main() {
 	setlocale(LC_ALL, "Russian");
-	ofstream f("Results.txt");
+
 	cout << "Введите 3 числа \n";
 	int a, b, c;
 	int max = 0;
 	cin >> a >> b >> c;
-	
+	checkValue(a, b, c, max);
+	writeFile(max);
 
-
+	getchar();
+	getchar();
+	return 0;
+}
+void checkValue(int a, int b, int c, int &max) {
 	if (a > b && a > c) {
 		max = a;
 		cout << "Наибольшее число - "
@@ -35,11 +41,10 @@ int main() {
 					<< c << endl;
 			}
 		}
-	} 
+	}
+}
+void writeFile(int &max) {
+	ofstream f("Results.txt");
 	f << "Наибольшее число - " << max << endl;
 	f.close();
-
-	getchar();
-	getchar();
-	return 0;
 }

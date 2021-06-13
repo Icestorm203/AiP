@@ -7,24 +7,39 @@
 #include <cmath>
 
 using namespace std;
-
+void writeZero(int n);
+void writeFile(int n);
 int main() {
 	setlocale(LC_ALL, "Russian");
 	ofstream f("Results.txt");
-	int n,i;
+	int n;
 	cout << "¬ведите число строк" << endl;
 	cin >> n;
-	for (int i = 1; i < n+1; i++) {
-		for (int j = 0; j < i; j++) {
-			cout << 0;
-			f << 0;
-		}
-		cout << endl;
-		f << endl;
-	}
+	writeZero(n);
+	writeFile(n);
 	
 	getchar();
 	getchar();
 	return 0;
 }
 
+void writeZero(int n) {
+	for (int i = 1; i < n + 1; i++) {
+		for (int j = 0; j < i; j++) {
+			cout << 0;
+		}
+		cout << endl;
+	}
+}
+void writeFile(int n) {
+	ofstream f("Results.txt");
+	for (int i = 1; i < n + 1; i++) {
+		for (int j = 0; j < i; j++) {
+			
+			f << 0;
+		}
+		
+		f << endl;
+	}
+	f.close();
+}

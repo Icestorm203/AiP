@@ -1,2 +1,4 @@
 C:\Users\User\Documents\Visual Studio 2019\Projects\Git_2\Debug\Git_2.exe
 C:\Users\User\Documents\Visual Studio 2019\Projects\Git_2\Debug\Git_2.pdb
+C:\Users\User\Documents\Visual Studio 2019\Projects\Git_1.2\Debug\Git_2.exe
+C:\Users\User\Documents\Visual Studio 2019\Projects\Git_1.2\Debug\Git_2.pdb
